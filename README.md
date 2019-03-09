@@ -4,13 +4,13 @@
 
 # TSOCK
 
-> An ARK API wrapper, written in TypeScript to interact with ARK blockchain.
+> An OCKHAM API wrapper, written in TypeScript to interact with OCKHAM blockchain.
 
 [![npm](https://img.shields.io/npm/dt/ock-ts.svg)]()
 [![npm](https://img.shields.io/npm/v/ock-ts.svg)]()
 [![license](https://img.shields.io/github/license/gitockham/ock-ts.svg)]()
 
-TSARK is a library client designed to facilitate how you interact with the ARK blockchain.
+TSARK is a library client designed to facilitate how you interact with the OCKHAM blockchain.
 
 ## Why TypeScript
 
