@@ -1,7 +1,7 @@
 {
-  "name": "ark-ts",
+  "name": "ock-ts",
   "version": "0.3.16",
-  "description": "An ARK API wrapper, written in TypeScript to interact with ARK blockchain.",
+  "description": "An OCKHAM API wrapper, written in TypeScript to interact with OCKHAM blockchain.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkecosystem/ark-ts.git"
+    "url": "git+https://github.com/gitockham/ock-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/ArkEcosystem/ark-ts/issues"
+    "url": "https://github.com/gitockham/ock-ts/issues"
   },
-  "homepage": "https://github.com/ArkEcosystem/ark-ts#readme",
+  "homepage": "https://github.com/gitockham/ock-ts#readme",
   "keywords": [
     "ark",
     "api",
@@ -27,7 +27,7 @@
     "cryptocurrency",
     "typescript"
   ],
-  "author": "Lúcio Rubens <lucio@ark.io>",
+  "author": "OCKHAM CONSULTING INSTITUTE <contact@ockham.consulting>",
   "license": "MIT",
   "dependencies": {
     "@types/bigi": "^1.4.0",

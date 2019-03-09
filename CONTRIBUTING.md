@@ -1,9 +1,9 @@
 # BOUNTY Program
-ARK has a bounty program for all accepted PR (Pull Requests) for this repository
+OCKHAM has a bounty program for all accepted PR (Pull Requests) for this repository
 
-More information can be found at https://blog.ark.io/ark-github-development-bounty-113806ae9ffe
+More information can be found at https://blog.ockham.consulting/ock-github-development-bounty-113806ae9ffe
 
-Before pushing PR, please [jump in our slack #development](https://ark.io/slack) channel in order to discuss your contributions or to connect with other ARKvelopers.
+Before pushing PR, please [jump in our slack #development](https://ockham.consulting/slack) channel in order to discuss your contributions or to connect with other OCKHAM developers.
 
 # Guidelines
 - pickup any of the existing issues or if you find an issue make a PR,
@@ -16,4 +16,4 @@ Before pushing PR, please [jump in our slack #development](https://ark.io/slack)
 - correct bug,
 - add new features,
 - improve documentation,
-- create something new for ARK.
+- create something new for OCKHAM.

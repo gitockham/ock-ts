@@ -1,9 +1,6 @@
 import DelegateApi from '../DelegateApi';
-
 import Http from '../../services/Http';
-
 import { Network, NetworkType } from '../../model/Network';
-
 import { expect } from 'chai';
 
 /* tslint:disable:no-unused-expression */
@@ -12,7 +9,7 @@ describe('DelegateApi', () => {
   const network = Network.getDefault(NetworkType.Devnet);
   const http = new Http(network);
   const api = new DelegateApi(http);
-  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R';
+  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R'; // To be reviewed
 
   it('should be instance of DelegateApi', () => {
     expect(api).to.be.instanceOf(DelegateApi);
@@ -26,7 +23,7 @@ describe('DelegateApi', () => {
   });
 
   it('should return sucess from get', () => {
-    return api.get({username: 'genesis_14'}).forEach((response) => {
+    return api.get({username: 'genesis_14'}).forEach((response) => { // To be reviewed
       expect(response).to.have.property('success', true);
     });
   });
@@ -39,7 +36,7 @@ describe('DelegateApi', () => {
 
   it('should return sucess from voters', () => {
     return api.voters({
-      publicKey: '03bd4f16e39aaba5cba6a87b7498b08ce540f279be367e68ae96fb05dfabe203ad',
+      publicKey: '03bd4f16e39aaba5cba6a87b7498b08ce540f279be367e68ae96fb05dfabe203ad', // To be reviewed
     }).forEach((response) => {
       expect(response).to.have.property('success', true);
     });
@@ -47,7 +44,7 @@ describe('DelegateApi', () => {
 
   it('should return instance of ForgedDetails from forgedData', () => {
     return api.forgedData({
-      publicKey: '03bd4f16e39aaba5cba6a87b7498b08ce540f279be367e68ae96fb05dfabe203ad',
+      publicKey: '03bd4f16e39aaba5cba6a87b7498b08ce540f279be367e68ae96fb05dfabe203ad', // To be reviewed
     }).forEach((response) => {
       expect(response).to.be.property('success', true);
     });

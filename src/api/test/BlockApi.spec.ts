@@ -1,9 +1,6 @@
 import BlockApi from '../BlockApi';
-
 import Http from '../../services/Http';
-
 import { Network, NetworkType } from '../../model/Network';
-
 import { expect } from 'chai';
 
 /* tslint:disable:no-unused-expression */
@@ -12,7 +9,7 @@ describe('BlockApi', () => {
   const network = Network.getDefault(NetworkType.Devnet);
   const http = new Http(network);
   const api = new BlockApi(http);
-  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R';
+  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R'; // To be reviewed
 
   it('should have static property', () => {
     expect(BlockApi).to.have.property('networkFees');
@@ -36,7 +33,7 @@ describe('BlockApi', () => {
   });
 
   it('should return sucess from get', () => {
-    return api.get({id: '8911180696223033455'}).forEach((response) => {
+    return api.get({id: '8911180696223033455'}).forEach((response) => { // To be reviewed
       expect(response).to.have.property('success', true);
     });
   });

@@ -1,9 +1,6 @@
 import LoaderApi from '../LoaderApi';
-
 import Http from '../../services/Http';
-
 import { Network, NetworkType } from '../../model/Network';
-
 import { expect } from 'chai';
 
 /* tslint:disable:no-unused-expression */
@@ -12,7 +9,7 @@ describe('LoaderApi', () => {
   const network = Network.getDefault(NetworkType.Devnet);
   const http = new Http(network);
   const api = new LoaderApi(http);
-  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R';
+  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R'; // To be reviewed
   const peerUrl = `http://${network.activePeer.ip}:${network.activePeer.port}`
 
   it('should be instance of LoaderApi', () => {

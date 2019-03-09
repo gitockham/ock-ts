@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ark-ts</title>
+	<title>ock-ts</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="index.html" class="title">ark-ts</a>
+					<a href="index.html" class="title">ock-ts</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -52,7 +52,7 @@
 					<a href="globals.html">Globals</a>
 				</li>
 			</ul>
-			<h1> ark-ts</h1>
+			<h1> ock-ts</h1>
 		</div>
 	</div>
 </header>
@@ -60,32 +60,32 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<p><strong>:warning: SOON TO BE DEPRECATED IN FAVOR OF <a href="https://github.com/ArkEcosystem/core/tree/master/packages/crypto">https://github.com/ArkEcosystem/core/tree/master/packages/crypto</a> - PLEASE SUBMIT PULL REQUESTS TO THE CORE V2 REPOSITORY :warning:*</strong></p>
-				<p><img src="https://i.imgur.com/AyhlVoZ.png" alt="TSARK Logo"></p>
-				<h1 id="tsark">TSARK</h1>
+				<p><strong>:warning: SOON TO BE DEPRECATED IN FAVOR OF <a href="https://github.com/gitockham/ock-core/tree/master/packages/crypto">https://github.com/gitockham/ock-core/tree/master/packages/crypto</a> - PLEASE SUBMIT PULL REQUESTS TO THE CORE V2 REPOSITORY :warning:*</strong></p>
+				<p><img src="https://i.imgur.com/AyhlVoZ.png" alt="TSOCK Logo"></p>
+				<h1 id="tsark">TSOCK</h1>
 				<blockquote>
-					<p>An ARK API wrapper, written in TypeScript to interact with ARK blockchain.</p>
+					<p>An OCKHAM API wrapper, written in TypeScript to interact with OCKHAM blockchain.</p>
 				</blockquote>
-				<p><a href=""><img src="https://img.shields.io/npm/dt/ark-ts.svg" alt="npm"></a>
-					<a href=""><img src="https://img.shields.io/npm/v/ark-ts.svg" alt="npm"></a>
-				<a href=""><img src="https://img.shields.io/github/license/arkecosystem/ark-ts.svg" alt="license"></a></p>
-				<p>TSARK is a library client designed to facilitate how you interact with the ARK blockchain.</p>
+				<p><a href=""><img src="https://img.shields.io/npm/dt/ock-ts.svg" alt="npm"></a>
+					<a href=""><img src="https://img.shields.io/npm/v/ock-ts.svg" alt="npm"></a>
+				<a href=""><img src="https://img.shields.io/github/license/gitockham/ock-ts.svg" alt="license"></a></p>
+				<p>TSOCK is a library client designed to facilitate how you interact with the OCKHAM blockchain.</p>
 				<h2 id="why-typescript">Why TypeScript</h2>
 				<ul>
 					<li>TypeScript is is a superset of JavaScript which mainly offers optional static typing, classes, and interfaces. The learning curve is not that steep.</li>
-					<li>Types are optional, TSARK compiles into ES5 so you can work with both, ECMAScript or TypeScript.</li>
+					<li>Types are optional, TSOCK compiles into ES5 so you can work with both, ECMAScript or TypeScript.</li>
 					<li>A better development experience, including auto-complete and fully documented.</li>
 				</ul>
 				<h2 id="documentation">Documentation</h2>
 				<blockquote>
-					<p><a href="https://arkecosystem.github.io/ark-ts/">API documentation</a> is hosted on github pages, and is generated from <a href="https://github.com/TypeStrong/typedoc">TypeDoc</a>.</p>
+					<p><a href="https://arkecosystem.github.io/ock-ts/">API documentation</a> is hosted on github pages, and is generated from <a href="https://github.com/TypeStrong/typedoc">TypeDoc</a>.</p>
 				</blockquote>
 				<h2 id="installation">Installation</h2>
-				<p>TSARK is avaliable from <code>npm</code>.</p>
-				<pre><code class="lang-bash">yarn add ark-ts
+				<p>TSOCK is avaliable from <code>npm</code>.</p>
+				<pre><code class="lang-bash">yarn add ock-ts
 </code></pre>
 				<p>or</p>
-				<pre><code class="lang-bash">npm i ark-ts --save
+				<pre><code class="lang-bash">npm i ock-ts --save
 </code></pre>
 				<h2 id="usage">Usage</h2>
 				<p>For the best TypeScript experience, you should either use <a href="http://code.visualstudio.com/">Visual Studio Code</a>, or a <a href="https://github.com/Microsoft/TypeScript/wiki/TypeScript-Editor-Support">plug-in for your favorite text editor</a>.</p>
@@ -93,7 +93,7 @@
 				<blockquote>
 					<p>Get delegate list from Devnet network.</p>
 				</blockquote>
-				<pre><code class="lang-js"><span class="hljs-keyword">import</span> { Client, Network, NetworkType } <span class="hljs-keyword">from</span> <span class="hljs-string">'ark-ts'</span>;
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> { Client, Network, NetworkType } <span class="hljs-keyword">from</span> <span class="hljs-string">'ock-ts'</span>;
 
 <span class="hljs-keyword">const</span> devnet = Network.getDefault(NetworkType.Devnet);
 <span class="hljs-keyword">const</span> client = <span class="hljs-keyword">new</span> Client(devnet);
@@ -105,7 +105,7 @@ client.delegate.list().subscribe(<span class="hljs-function">(<span class="hljs-
 				<blockquote>
 					<p>Get address from passphrase.</p>
 				</blockquote>
-				<pre><code class="lang-js"><span class="hljs-keyword">import</span> { PrivateKey } <span class="hljs-keyword">from</span> <span class="hljs-string">'ark-ts/core'</span>;
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> { PrivateKey } <span class="hljs-keyword">from</span> <span class="hljs-string">'ock-ts/core'</span>;
 
 <span class="hljs-comment">// if no specify a second param, default is mainnet</span>
 <span class="hljs-keyword">const</span> key = PrivateKey.fromSeed(<span class="hljs-string">'my secret passphrase'</span>);
@@ -116,18 +116,18 @@ client.delegate.list().subscribe(<span class="hljs-function">(<span class="hljs-
 				<pre><code class="lang-bash">npm run <span class="hljs-built_in">test</span>
 </code></pre>
 				<h2 id="security">Security</h2>
-				<p>If you discover a security vulnerability within this project, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.</p>
+				<p>If you discover a security vulnerability within this project, please send an e-mail to security@ockham.consulting. All security vulnerabilities will be promptly addressed.</p>
 				<h2 id="contributing">Contributing</h2>
 				<ul>
 					<li>If you find any bugs, submit an <a href="../../issues">issue</a> or open <a href="../../pulls">pull-request</a>, helping us catch and fix them.</li>
-					<li>Engage with other users and developers on <a href="https://ark.io/slack/">ARK Slack</a>.</li>
+					<li>Engage with other users and developers on <a href="https://ockham.consulting/slack/">OCKHAM Slack</a>.</li>
 					<li>Join the #development channel on Slack or contact our developer Lúcio (@lorenzo).</li>
 					<li><a href="./CONTRIBUTING.md">Contribute bounties</a>.</li>
 				</ul>
 				<h2 id="credits">Credits</h2>
 				<p><strong>Lúcio Rubens</strong> - <a href="https://github.com/luciorubeens">@luciorubeens</a>;</p>
 				<h2 id="license">License</h2>
-				<p>TSARK is licensed under the MIT License - see the <a href="./LICENSE">LICENSE</a> file for details.</p>
+				<p>TSOCK is licensed under the MIT License - see the <a href="./LICENSE">LICENSE</a> file for details.</p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -137,7 +137,7 @@ client.delegate.list().subscribe(<span class="hljs-function">(<span class="hljs-
 						<a href="globals.html"><em>Globals</em></a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="modules/_ark_.html">"<wbr>Ark"</a>
+						<a href="modules/_ock_.html">"<wbr>Ock"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="modules/api.html">api</a>

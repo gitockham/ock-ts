@@ -1,10 +1,7 @@
 import PeerApi from '../PeerApi';
-
 import Http from '../../services/Http';
-
 import { Network, NetworkType } from '../../model/Network';
 import { Peer } from '../../model/Peer';
-
 import { expect } from 'chai';
 
 /* tslint:disable:no-unused-expression */
@@ -13,7 +10,7 @@ describe('PeerApi', () => {
   const network = Network.getDefault(NetworkType.Devnet);
   const http = new Http(network);
   const api = new PeerApi(http);
-  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R';
+  const address = 'DPTj92butfhy527V13bSXMj9SVYZGAVZ1R'; // To be reviewed
 
   it('should be instance of PeerApi', () => {
     expect(api).to.be.instanceOf(PeerApi);
@@ -26,7 +23,7 @@ describe('PeerApi', () => {
   });
 
   it('should return success from get', () => {
-    return api.get('213.32.9.97', 4002).forEach((response) => {
+    return api.get('213.32.9.97', 4002).forEach((response) => { // To be reviewed
       expect(response).to.have.property('success', true);
     });
   });

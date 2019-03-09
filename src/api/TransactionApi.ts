@@ -36,7 +36,7 @@ export default class TransactionApi {
           fee: fees.send,
           recipientId: params.recipientId,
           timestamp: params.timestamp,
-          type: model.TransactionType.SendArk,
+          type: model.TransactionType.SendOck,
           vendorField: params.vendorField,
         };
 
