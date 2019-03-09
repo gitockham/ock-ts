@@ -80,14 +80,14 @@ If you discover a security vulnerability within this project, please send an e-m
 ## Contributing
 
   * If you find any bugs, submit an [issue](../../issues) or open [pull-request](../../pulls), helping us catch and fix them.
-  * Engage with other users and developers on [ARK Slack](https://ockham.consulting/slack/).
+  * Engage with other users and developers on [OCKHAM Slack](https://ockham.consulting/slack/).
   * Join the #development channel on Slack or contact our developer Luc (@gitockham).
   * [Contribute bounties](./CONTRIBUTING.md).
 
 ## Credits
 
-**Lúcio Rubens** - [@luciorubeens](https://github.com/luciorubeens);
-**Luc Talarico** - [@gitockham](https://github.com/gitockham);
+- [Lúcio Rubens](https://github.com/luciorubeens),
+- [Luc Talarico](https://github.com/gitockham)
 
 ## License
 
