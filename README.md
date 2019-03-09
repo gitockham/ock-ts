@@ -1,6 +1,6 @@
 **:warning: SOON TO BE DEPRECATED IN FAVOR OF https://github.com/gitockham/ock-core/tree/master/packages/crypto - PLEASE SUBMIT PULL REQUESTS TO THE CORE V2 REPOSITORY :warning:***
 
-![TSOCK Logo](https://i.imgur.com/AyhlVoZ.png)
+![TSOCK Logo](./banner.png)
 
 # TSOCK
 
